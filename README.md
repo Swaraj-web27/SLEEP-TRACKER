@@ -85,8 +85,9 @@ Average hours you slept is:5.286
 You are not getting enough sleep. Try to rest more!!
 
 6. Implementation
+7. The project is published on google for easy access to the code.
+8. https://github.com/Swaraj-web27/SLEEP-TRACKER
 
-
-7. Conclusion
+9. Conclusion
 This simple sleep tracker program helps users understand their sleep patterns by collecting daily sleep hours and providing feedback on average sleep duration. Monitoring sleep is crucial for maintaining good health, and such programs encourage better habits.
 
