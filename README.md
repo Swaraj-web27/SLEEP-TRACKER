@@ -50,7 +50,7 @@ void main(){
                 }
                     else{
                         if (average<6){
-                            printf("\nYou are not getting enough sleep. Try to rest   		                            more!!\n");
+                            printf("\nYou are not getting enough sleep. Try to rest more!!\n");
                         }
                     }
                 }
