@@ -37,25 +37,18 @@ void main(){
     if(average>=9){
         printf("\nYou are sleeping too much. Consider consulting a health professional.");
     }
-    else{
-        if (average>=8){
-            printf("You are sleeping well");
-        }
-        else{
-            if (average>=7)
-            printf("Average sleep quality");
-            else{
-                if(average>=6){
-                    printf("\nIncrease your sleepig time");
-                }
-                    else{
-                        if (average<6){
-                            printf("\nYou are not getting enough sleep. Try to rest more!!\n");
-                        }
-                    }
-                }
-            }
-        }
+    else if(average>=8){
+            printf("\nYou are sleeping well.");
+    }
+    else if(average>=7){
+        printf("\nAverage sleep quality.");
+    }
+    else if(average>=6){
+        printf("\nIncrease your sleeping time.");
+    }
+    else if(average<6){
+        printf("\nYou are not getting enough sleep. Try to rest more!!!");
+    }
 }
 
 5. Testing
