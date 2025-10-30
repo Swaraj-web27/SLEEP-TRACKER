@@ -13,25 +13,14 @@ Output: Average sleep hours and a message indicating sleep quality.
 
 4. Built
 #include <stdio.h>
-void main(){
-    int day1,day2,day3,day4,day5,day6,day7,sum=0;
+int main(){
+    int day,sum=0;
     float average;
-    printf("Enter hours you slept on Day1: ");
-    scanf("%d",&day1);
-    printf("Enter hours you slept on Day2: ");
-    scanf("%d",&day2);
-    printf("Enter hours you slept on Day3: ");
-    scanf("%d",&day3);
-    printf("Enter hours you slept on Day4: ");
-    scanf("%d",&day4);
-    printf("Enter hours you slept on Day5: ");
-    scanf("%d",&day5);
-    printf("Enter hours you slept on Day6: ");
-    scanf("%d",&day6);
-    printf("Enter hours you slept on Day7: ");
-    scanf("%d",&day7);
-    sum=day1+day2+day3+day4+day5+day6+day7;
-    printf("Total hours you slept in the previous week is:%d",sum);
+    for(int i=1;i<=7;i++){
+        printf("Enter number of hours you slept on Day %d:",i);
+        scanf("%d",&day);
+        sum+=day;
+    }
     average=sum/7.0;
     printf("\nAverage hours you slept is:%.3f",average);
     if(average>=9){
@@ -49,6 +38,7 @@ void main(){
     else if(average<6){
         printf("\nYou are not getting enough sleep. Try to rest more!!!");
     }
+    return 0;
 }
 
 5. Testing
